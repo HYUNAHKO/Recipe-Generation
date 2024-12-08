@@ -40,7 +40,7 @@ Our project follows a comprehensive pipeline from data gathering to final recipe
 This project utilizes several external libraries and models:
 - **KAPING**: @article{yourKapingCitationHere, title={Title of KAPING Paper}, author={Author Names}, journal={Journal Name}, year={Year} }
 - **CompVis Stable Diffusion**: @article{Rombach2022HighResolutionIS, title={High-Resolution Image Synthesis with Latent Diffusion Models}, author={Robin Rombach and Andreas Blattmann and Dominik Lorenz and Patrick Esser and Björn Ommer}, journal={ArXiv}, year={2022}, volume={abs/2112.10752} }
-- 
+
 ## Getting Started
 Clone the repository and install the required dependencies:
 ```bash
