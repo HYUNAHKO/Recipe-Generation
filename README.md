@@ -1,4 +1,4 @@
-# 방구석 흑백요리
+# 🍳 방구석 흑백요리사
 
 ## Introduction
 "Backroom Black and White Chef" leverages advanced AI technologies like image detection and knowledge graphs to recommend high-quality recipes based on limited ingredients. This project uses cutting-edge AI to understand and creatively manipulate culinary data.
