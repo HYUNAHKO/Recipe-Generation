@@ -52,7 +52,12 @@ The fine-tuning of the YOLOv5 model was conducted using a custom dataset availab
 
 ## Citations
 This project utilizes several external libraries and models:
-- **KAPING**: @article{yourKapingCitationHere, title={Title of KAPING Paper}, author={Author Names}, journal={Journal Name}, year={Year} }
+- **KAPING**: @article{baek2023knowledge,
+  title={Knowledge-augmented language model prompting for zero-shot knowledge graph question answering},
+  author={Baek, Jinheon and Aji, Alham Fikri and Saffari, Amir},
+  journal={arXiv preprint arXiv:2306.04136},
+  year={2023}
+}
 - **CompVis Stable Diffusion**: @article{Rombach2022HighResolutionIS, title={High-Resolution Image Synthesis with Latent Diffusion Models}, author={Robin Rombach and Andreas Blattmann and Dominik Lorenz and Patrick Esser and Björn Ommer}, journal={ArXiv}, year={2022}, volume={abs/2112.10752} }
 
 ## Getting Started
