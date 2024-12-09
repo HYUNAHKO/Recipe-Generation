@@ -18,6 +18,15 @@ For further details on each component, refer to the [YOLOv5 official repository]
 ## Pipeline
 ![Pipeline](/image/pipeline.jpg)
 
+## Pipeline Overview
+Our project follows a comprehensive pipeline from data gathering to final recipe suggestions:
+1. **Dataset Preparation**
+2. **Image Detection with YOLOv5**
+3. **Knowledge Graph Construction**
+4. **KAPING Integration**
+5. **Prompt Engineering**
+6. **Result Compilation**
+   
 ## Features
 ### Image Detection
 Utilizes YOLOv5m for recognizing ingredients from images, with fine-tuning performed on a specialized dataset.
@@ -40,16 +49,6 @@ The fine-tuning of the YOLOv5 model was conducted using a custom dataset availab
 - **Model**: [YOLOv5 Fine-tuned Model on Hugging Face](https://huggingface.co/yourusername/yolov5-finetuned)
 - **Dataset**: [Labeled Image Data on Hugging Face](https://huggingface.co/datasets/yourusername/yourdataset)
 
-## Pipeline Overview
-Our project follows a comprehensive pipeline from data gathering to final recipe suggestions:
-1. **Dataset Preparation**
-2. **Image Detection with YOLOv5**
-3. **Knowledge Graph Construction**
-4. **KAPING Integration**
-5. **Prompt Engineering**
-6. **Result Compilation**
-
-![Pipeline Diagram](/path/to/pipeline_diagram.png)
 
 ## Citations
 This project utilizes several external libraries and models:
