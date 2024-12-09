@@ -1,7 +1,10 @@
-# 🍳 방구석 흑백요리사
+# 🍳 방구석 흑백요리사 (Armchair Chef)
 
 ## Introduction
-"Backroom Black and White Chef" leverages advanced AI technologies like image detection and knowledge graphs to recommend high-quality recipes based on limited ingredients. This project uses cutting-edge AI to understand and creatively manipulate culinary data.
+"Armchair Chef" leverages AI technologies like image detection and knowledge graphs to recommend high-quality recipes based on limited ingredients. This project reminds us data collection is crucial part of making advanced AI. 
+
+## Pipeline
+![Pipeline](/Recipe-Genration/image/pipeline.png)
 
 ## Features
 ### Image Detection
