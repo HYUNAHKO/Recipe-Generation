@@ -46,8 +46,8 @@ Generates detailed and context-aware prompts for recipe generation.
 
 ## Model Training and Data
 The fine-tuning of the YOLOv5 model was conducted using a custom dataset available on Hugging Face:
-- **Model**: [YOLOv5 Fine-tuned Model on Hugging Face](https://huggingface.co/yourusername/yolov5-finetuned)
-- **Dataset**: [Labeled Image Data on Hugging Face](https://huggingface.co/datasets/yourusername/yourdataset)
+- **Model**: [YOLOv5 Fine-tuned Model on Hugging Face](https://huggingface.co/HYUNAHKO/Ingredients_object_detection)
+- **Dataset**: [Labeled Image Data on Hugging Face](https://huggingface.co/datasets/HYUNAHKO/ingredients_dataset)
 
 
 ## Citations
