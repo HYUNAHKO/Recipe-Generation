@@ -4,7 +4,7 @@
 "Armchair Chef" leverages AI technologies like image detection and knowledge graphs to recommend high-quality recipes based on limited ingredients. This project reminds us data collection is crucial part of making advanced AI. 
 
 ## Pipeline
-![Pipeline](/Recipe-Genration/image/pipeline.jpg)
+![Pipeline](/image/pipeline.jpg)
 
 ## Features
 ### Image Detection
