@@ -3,12 +3,24 @@
 ## Introduction
 "Armchair Chef" leverages AI technologies like image detection and knowledge graphs to recommend high-quality recipes based on limited ingredients. This project reminds us data collection is crucial part of making advanced AI. 
 
+## Related Works
+- **Image Detection**:
+  - We utilize YOLOv5 image detection model to identify ingredients from user-uploaded photos. Our approach is based on fine-tuning the YOLOv5m model, which leverages its excellent compatibility with our server infrastructure(Elice Company) and its proven effectiveness in training. It provides robust and efficient detection of ingredients from user-uploaded photos, which is essential for accurately identifying the components of complex dishes. This fine-tuning process not only enhances the model's accuracy but also tailors it specifically for culinary applications, significantly improving our system's ability to provide precise recipe suggestions and dietary insights based on the identified ingredients. This ensures a seamless and intuitive user experience, making our application a valuable tool for culinary enthusiasts and health-conscious individuals alike.
+
+- **Retrieval-Augmented Generation (RAG)**:
+  - Our project integrates the RAG model for enhancing recipe recommendations. This method combines the robustness of retrieval-based techniques with the generative capabilities of a transformer. By leveraging indexed data for immediate lookup and contextual relevance, RAG significantly improves the specificity and quality of recipe suggestions based on user inputs and detected ingredients.
+
+- **Text Generation**:
+  - For generating customized recipes and culinary instructions, we employ advanced text generation models. These models are fine-tuned on a diverse dataset of recipes, enabling them to generate creative and contextually relevant culinary directions tailored to the user's dietary preferences and available ingredients.
+
+For further details on each component, refer to the [YOLOv5 official repository](https://github.com/ultralytics/yolov5), [Hugging Face's RAG documentation](https://huggingface.co/docs/transformers/model_doc/rag), and the [CompVis/stable-diffusion GitHub page](https://github.com/CompVis/stable-diffusion) for insights into the cutting-edge image synthesis used in our project.
+  
 ## Pipeline
 ![Pipeline](/image/pipeline.jpg)
 
 ## Features
 ### Image Detection
-Utilizes YOLOv5 for recognizing ingredients from images, with fine-tuning performed on a specialized dataset.
+Utilizes YOLOv5m for recognizing ingredients from images, with fine-tuning performed on a specialized dataset.
 ![Image Detection](/path/to/image_detection_gif.gif)
 
 ### Knowledge Graphs with Neo4j
