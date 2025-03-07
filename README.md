@@ -1,4 +1,4 @@
-# 🍳 방구석 흑백요리사 (Armchair Chef)
+# 🍳 방구석 흑백요리사 (Armchair Chef) - YAICON 5th
 
 ## Introduction
 "Armchair Chef" leverages AI technologies like image detection and knowledge graphs to recommend high-quality recipes based on limited ingredients. This project reminds us data collection is crucial part of making advanced AI. 
